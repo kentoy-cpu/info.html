@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mayor Information Website</title>
+    <link rel="stylesheet" href="webstyle.css">
+</head>
+<body>
+<!-- NAVIGATION -->
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#About">About</a>
+    <a href="#Programs">Programs</a>
+    <a href="#Vision">Vision & Mission</a>
+    <a href="#Contact">Contact</a>
+</div>
+<!-- HERO -->
+<div class="hero" id="home">
+    <div class="hero-text">
+        <h1>MAYOR "JONKIE" OUANO</h1>
+        <p>Leading Mandaue Towards Progress and Unity</p>
+    </div>
+    <img src="allphotos/Mayor Blue.jpg" alt="Mayor">
+</div>
+<!-- ABOUT -->
+<div class="section" id="About">
+    <h2>About the Mayor</h2>
+    <p><strong>Thadeo Jonkie Ouano</strong></p>
+    <p>Dedicated Leader of Mandaue City</p>
+    <p><strong>Education:</strong> BA Political Science, MBA Public Administration</p>
+    <p><strong>In Service Since:</strong> June 30, 2025</p>
+    <p>Thadeo "Jonkie" Jovito Mabanag Ouano, Jr., born on November 16, 1979, in Mandaue City, Cebu, is a Filipino politician currently serving as a Board Member representing the 6th District of Cebu Province. 
+        He is the son of the late Thadeo "Teddy" Ouano, a former mayor of Mandaue City, and the brother of Emmarie "Lolypop" Ouano-Dizon, the current representative of Cebu's 6th District in the House of Representatives.</p>
+</div>
+<!-- PROGRAMS -->
+<div class="section" id="Programs">
+    <h2>Programs and Achievements</h2>
+    <div class="programs">
+
+        <a href="infrastructure.html" class="program-link">
+            <div class="Infastructure">
+                <img src="allphotos/Infastructure photo.jpg" alt="Photo">
+                <h3>Infrastructure</h3>
+                <p>Building roads, bridges, and public facilities.</p>
+            </div>
+        </a>
+
+        <a href="education.html" class="program-link">
+            <div class="Education">
+                <img src="allphotos/Education photo.jpg" alt="Education">
+                <h3>Education</h3>
+                <p>Improving schools and educational resources.</p>
+            </div>
+        </a>
+
+        <a href="healthcare.html" class="program-link">
+            <div class="Healthcare">
+                <img src="allphotos/Healthcare Photo.jpg" alt="Healthcare">
+                <h3>Health Services</h3>
+                <p>Enhancing healthcare and wellness programs.</p>
+            </div>
+        </a>
+
+    </div>
+</div>
+<!-- VISION & MISSION -->
+<div class="section" id="Vision">
+    <h2>Vision and Mission</h2>
+    <div class="vm">
+
+        <a href="vision.html" class="vm-link">
+            <div class="box vision">
+                <h3>Our Vision</h3>
+                <p>A progressive and safe Mandaue</p>
+            </div>
+        </a>
+
+        <a href="mission.html" class="vm-link">
+            <div class="box mission">
+                <h3>Our Mission</h3>
+                <p>To serve with integrity and dedication</p>
+            </div>
+        </a>
+
+    </div>
+</div>
+<!-- CONTACT -->
+<div class="section contact" id="Contact">
+    <h2>Contact the Mayor</h2>
+
+    <!-- LOGIN / REGISTER -->
+    <div class="auth-box">
+        <h3>Register</h3>
+        <input type="text" id="regUser" placeholder="Username">
+        <input type="password" id="regPass" placeholder="Password">
+        <button onclick="register()">Register</button>
+
+        <h3>Login</h3>
+        <input type="text" id="loginUser" placeholder="Username">
+        <input type="password" id="loginPass" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <hr>
+
+    <!-- MESSAGE FORM -->
+    <input type="email" id="email" placeholder="Email" disabled>
+    <textarea rows="4" id="message" placeholder="Message" disabled></textarea>
+    <button id="sendBtn" disabled>Send Message</button>
+
+    <p id="status"></p>
+</div>
+
+<footer>
+    © 2025 Informational Website
+</footer>
+<script src="webscript.js"></script>
+</body>
+</html>
